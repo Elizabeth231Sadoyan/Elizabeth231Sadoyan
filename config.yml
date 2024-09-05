@@ -1,0 +1,7 @@
+[database]
+database = sites
+user = crossfire
+host = 127.0.0.1
+password = 123qweQW!
+auth_plugin = mysql_native_password
+
