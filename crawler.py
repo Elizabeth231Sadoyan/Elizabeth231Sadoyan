@@ -47,7 +47,7 @@ def parser(owner):
                 break
 
 
-parser("shavocacao")
+parser("batman")
 
 
 def data_share(username):
@@ -96,7 +96,7 @@ start = time.time()
 
 if __name__ == '__main__':
     for i in range(mythreads):
-        t1 = threading.Thread(target=data_share, args=('shavocacao', ), daemon=True)
+        t1 = threading.Thread(target=data_share, args=('batman', ), daemon=True)
         t1.start()
         threads.append(t1)
     for tr in threads:
